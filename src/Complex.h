@@ -19,11 +19,9 @@ public:
 	bool operator == (TComplex& p);
 	bool operator != (TComplex& p);
 	friend std::istream& operator >> (std::istream& istr, TComplex& p);
-
 private:
 	double re;
 	double im;
 };
-
 std::ostream& operator << (std::ostream& ostr, TComplex& p);
 
