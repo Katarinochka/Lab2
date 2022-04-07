@@ -23,8 +23,7 @@ public:
 private:
 	double re;
 	double im;
-
 };
 
-std::ostream& operator << (std::ostream& ostr, TComplex& p);//âûâîä
+std::ostream& operator << (std::ostream& ostr, TComplex& p);//Ã¢Ã»Ã¢Ã®Ã¤
 
