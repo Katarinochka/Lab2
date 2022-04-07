@@ -26,5 +26,4 @@ int main()
     d = c;
 
     return 0;
-
 }
