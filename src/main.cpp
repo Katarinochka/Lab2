@@ -7,10 +7,10 @@ int main()
 	TComplex b = 1.25;
 	TComplex c(2, 3);//конструктор инициализатор
 	TComplex d = c;//конструктор копирования
-	/*a.SetIm(10);
+	a.SetIm(10);
 	a.SetRe(25);
 	c = a.Add(d);
-	b = b.Mult(a);*/
+	b = b.Mult(a);
 	std::cin >> a;
 	std::cout << "A = " << a << std::endl;
 	std::cout << "B = " << b << std::endl;

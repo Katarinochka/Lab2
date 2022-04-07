@@ -41,7 +41,6 @@ TComplex TComplex::Add(TComplex& b)
 
 TComplex TComplex::Mult(TComplex& b)
 {
-	//a+ib*c+*id=(a*c-b*d)+i(b*c+a*d)
 	TComplex res;
 	res.re += re * b.re - im * b.im;
 	res.im += im * b.re + re * b.im;

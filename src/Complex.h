@@ -26,5 +26,5 @@ private:
 
 };
 
-std::ostream& operator << (std::ostream& ostr, TComplex& p);
+std::ostream& operator << (std::ostream& ostr, TComplex& p);//вывод
 
