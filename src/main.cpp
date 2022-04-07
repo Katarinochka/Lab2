@@ -3,28 +3,28 @@
 
 int main()
 {
-	TComplex a; //êîíñòğóêòîğ ïî óìîë÷àíèş
-	TComplex b = 1.25;
-	TComplex c(2, 3);//êîíñòğóêòîğ èíèöèàëèçàòîğ
-	TComplex d = c;//êîíñòğóêòîğ êîïèğîâàíèÿ
-	a.SetIm(10);
-	a.SetRe(25);
-	c = a.Add(d);
-	b = b.Mult(a);
-	std::cin >> a;
-	std::cout << "A = " << a << std::endl;
-	std::cout << "B = " << b << std::endl;
-	c = a + b;
-	c = a.operator+(b);
-	std::cout << "C = A + B = " << a << " + " << b << " = " << c << std::endl;
-	b = b * a;
-	int q1 = 10;
-	int q2 = 15;
-	int q3 = 20;
-	c = c;
-	25;
-	d = c;
+    TComplex a; //ÃªÃ®Ã­Ã±Ã²Ã°Ã³ÃªÃ²Ã®Ã° Ã¯Ã® Ã³Ã¬Ã®Ã«Ã·Ã Ã­Ã¨Ã¾
+    TComplex b = 1.25;
+    TComplex c(2, 3);//ÃªÃ®Ã­Ã±Ã²Ã°Ã³ÃªÃ²Ã®Ã° Ã¨Ã­Ã¨Ã¶Ã¨Ã Ã«Ã¨Ã§Ã Ã²Ã®Ã°
+    TComplex d = c;//ÃªÃ®Ã­Ã±Ã²Ã°Ã³ÃªÃ²Ã®Ã° ÃªÃ®Ã¯Ã¨Ã°Ã®Ã¢Ã Ã­Ã¨Ã¿
+    a.SetIm(10);
+    a.SetRe(25);
+    c = a.Add(d);
+    b = b.Mult(a);
+    std::cin >> a;
+    std::cout << "A = " << a << std::endl;
+    std::cout << "B = " << b << std::endl;
+    c = a + b;
+    c = a.operator+(b);
+    std::cout << "C = A + B = " << a << " + " << b << " = " << c << std::endl;
+    b = b * a;
+    int q1 = 10;
+    int q2 = 15;
+    int q3 = 20;
+    c = c;
+    25;
+    d = c;
 
-	return 0;
+    return 0;
 
 }
