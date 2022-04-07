@@ -108,7 +108,6 @@ std::istream& operator >> (std::istream& istr, TComplex& p)
 	istr >> p.im;
 	return istr;
 }
-
 std::ostream& operator << (std::ostream& ostr, TComplex& p)
 {
 	ostr << p.GetRe() << " + i * " << p.GetIm();
